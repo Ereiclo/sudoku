@@ -1,0 +1,57 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+* {
+    font-family: 'Roboto',sans-serif;
+    font-size: 29px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sudoku{
+    display: flex;
+    /* width: 40%; */
+    /* height: 70%; */
+    min-width: 772px;
+    min-height: 680px;
+    width: 772px;
+    height: 680px;
+    /* border: 8px solid black; */
+    flex-direction: column;
+
+
+}
+
+.filita{
+    display:flex;
+    height: 11.111111%;
+    width: 100%;
+    flex: 1;
+}
+
+.celda{
+    /* width: 11.111111%; */
+    /* height: 100%; */
+    flex: 1;
+    /* border: 5px solid black ; */
+    border-bottom: 4px solid black ;
+    border-left: 4px solid black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+
+.celda-superior{
+    border-top: 4px solid black ;
+}
+
+.celda-mas-derecha{
+    border-right: 4px solid black ;
+}
